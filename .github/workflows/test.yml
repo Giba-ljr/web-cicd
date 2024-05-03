@@ -17,12 +17,7 @@ jobs:
         node-version: 20.x
         cache: 'npm'
     - run: npm ci
-     name: Baixar dependencias
     - run: echo SONAR
-     name: Executando chamada do SONAR
     - run: npm run build --if-present
-     name: Executando o Build
     - run: npm test
-     name: Executando os testes
     - run: ls -lha
-     name: Listando o diretório
