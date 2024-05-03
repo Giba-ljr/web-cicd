@@ -26,6 +26,6 @@
     "supertest": "^7.0.0"
   },
   "publishConfig": {
-    "@Giba-ljr:registry": "https://npm.pkg.github.com"
+    "@Giba-ljr:registry": "https://npm.pkg.github.com:/Giba-ljr"
   }
 }
