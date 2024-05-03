@@ -51,8 +51,11 @@ jobs:
           registry-url: https://npm.pkg.github.com/Giba-ljr
       - name: Install dependencies
         run: npm ci
+      - name: set token
+        run: npm set "//npm.pkg.github.com/:_authToken=${{secrets.TOKENGITHUB}}"
       - name: Set Registry
         run: npm config set registry=https://npm.pkg.github.com/Giba-ljr
+      - run: npm login
       - name: Publish Artifacts
         run: npm publish
         env:
