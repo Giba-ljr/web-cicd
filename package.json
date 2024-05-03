@@ -1,14 +1,26 @@
 {
   "name": "web-cicd",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
-  "keywords": [],
-  "author": "Gilberto Lozano Junior",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Giba-ljr/web-cicd.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "jest"
+  ],
+  "author": "Gilberto Lozano Junior <lozano.gilberto@outlook.com>",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Giba-ljr/web-cicd/issues"
+  },
+  "homepage": "https://github.com/Giba-ljr/web-cicd#readme",
   "devDependencies": {
     "jest": "^29.7.0",
     "supertest": "^7.0.0"
