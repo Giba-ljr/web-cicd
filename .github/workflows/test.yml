@@ -55,7 +55,7 @@ jobs:
         run: npm config set //npm.pkg.github.com/:_authToken=${{secrets.TOKENGITHUB}}
       - name: Set Registry
         run: npm config set registry=https://npm.pkg.github.com
-      - run: npm login
+      # - run: npm login
       - name: Publish Artifacts
         run: npm publish
         env:
