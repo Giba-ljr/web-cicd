@@ -52,7 +52,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Set Registry
-        run: npm config set registry=https://npm.pkg.github.com/
+        run: npm config set registry=https://npm.pkg.github.com/Giba-ljr
       - name: Publish Artifacts
         run: npm publish
         env:
